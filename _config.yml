@@ -1,0 +1,21 @@
+title: Lernlog
+description: >-
+  Ich baue eigene Agenten für Claude Code und schreibe auf, woran ich hängen bleibe –
+  ehrlich, mit allen Fehlern. Auf Deutsch.
+lang: de
+author: "NAME_EINTRAGEN"
+
+minima:
+  date_format: "%d.%m.%Y"
+
+theme: minima
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - ueber.md
+
+exclude:
+  - README.md
