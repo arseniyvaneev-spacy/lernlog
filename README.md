@@ -24,7 +24,7 @@ Gebaut wird automatisch von GitHub Pages (Jekyll), kein eigener Workflow nötig.
    ---
    ```
 2. Text in Markdown darunter, am Ende die Zeile *Geschrieben mit Claude, auf Basis meiner eigenen Fehler.*
-3. Links auf ältere Beiträge mit `{% post_url JJJJ-MM-TT-kurztitel %}`.
+3. Links auf ältere Beiträge mit `{{ site.baseurl }}{% post_url JJJJ-MM-TT-kurztitel %}` – GitHub Pages baut mit Jekyll 3, dort fügt `post_url` den Pfad `/lernlog` nicht selbst hinzu.
 4. Vor dem Veröffentlichen prüfen: keine Tokens, keine Telegram- oder Nutzer-IDs, keine Links auf private Repositories.
 
 Die Entwürfe entstehen im privaten Repo `ideen` und werden erst hier veröffentlicht.
