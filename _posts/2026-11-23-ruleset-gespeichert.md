@@ -8,7 +8,7 @@ date: 2026-11-23 10:00:00 +0100
 
 ## Worum es geht
 
-Im [letzten Beitrag]({% post_url 2026-11-20-push-schutz %}) war der Hook, der meinen Agenten vom Push auf `main` abhalten soll, nur eine Leitplanke. Die harte Grenze sollte ein **Ruleset** auf GitHub sein: eine Regel direkt am Repo, die Pushes auf `main` und Force-Pushes ablehnt, egal wer oder was pusht.
+Im [letzten Beitrag]({{ site.baseurl }}{% post_url 2026-11-20-push-schutz %}) war der Hook, der meinen Agenten vom Push auf `main` abhalten soll, nur eine Leitplanke. Die harte Grenze sollte ein **Ruleset** auf GitHub sein: eine Regel direkt am Repo, die Pushes auf `main` und Force-Pushes ablehnt, egal wer oder was pusht.
 
 Also Ruleset angelegt, gespeichert, fertig. Dachte ich. Insgesamt habe ich drei Rulesets eingerichtet, und keins davon hat beim ersten Mal getan, was ich wollte.
 
